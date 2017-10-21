@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="LoginDesign.css">
+</head>
+<body>
+
+<div class="container">
+<div class="main">
+<center>
+<h2>Login</h2><br>
+<form id="form_id" method="post" name="myform">
+<label>User Name :</label><br>
+<input type="text" name="username" id="username"/><br><br>
+<label>Password :</label><br>
+<input type="password" name="password" id="password"/><br><br>
+<input type="button" value="Submit" id="submit" onclick="validate()"/>
+</form>
+</center>
+</div>
+</div>
+
+<script>
+//Below function Executes on click of login button.
+function validate(){
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
+if ( username == "admin" && password == "admin"){
+alert ("Login successfully");
+window.location = "books.html"; // Redirecting to other page.
+return false;
+}
+}
+</script>
+
+</body>
+</html>

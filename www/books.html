@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+      <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+      <script>
+         $(document).on("pagecreate","#page1",function() {
+            $("p").on("swiperight",function() {
+               $("span").text("swipe event occurred!!!");
+            });
+         });
+      </script>
+   </head>
+   
+   <body>
+      
+      <h2>My Library</h2>
+      <fieldset class = "ui-grid-b">
+         <div class = "ui-block-a">
+            <a class = "ui-btn ui-corner-all ui-shadow ui-btn-a" href="pages.html"><img src="img/image1.jpg" height="150px" width="150px"></a>
+         </div>
+         
+         <div class = "ui-block-b">
+            <a class = "ui-btn ui-corner-all ui-shadow ui-btn-a" ><img src="img/image2.jpg" height="150px" width="150px"></a>
+         </div>
+         
+         <div class = "ui-block-c">
+            <a class = "ui-btn ui-corner-all ui-shadow ui-btn-a" ><img src="img/image3.jpg" height="150px" width="150px"></a>
+            </div>
+
+<div class = "ui-block-a">
+            <a class = "ui-btn ui-corner-all ui-shadow ui-btn-a"><img src="img/image4.jpg" height="150px" width="150px"></a>
+         </div>
+         
+         <div class = "ui-block-b">
+            <a class = "ui-btn ui-corner-all ui-shadow ui-btn-a"><img src="img/image5.jpg" height="150px" width="150px"></a>
+         </div>
+         
+         <div class = "ui-block-c">
+            <a class = "ui-btn ui-corner-all ui-shadow ui-btn-a"><img src="img/image6.jpg" height="150px" width="150px"></a>
+            </div>
+
+<div class = "ui-block-a">
+            <a class = "ui-btn ui-corner-all ui-shadow ui-btn-a"><img src="img/image7.jpg" height="150px" width="150px"></a>
+         </div>
+         
+         <div class = "ui-block-b">
+            <a class = "ui-btn ui-corner-all ui-shadow ui-btn-a"><img src="img/image8.jpg" height="150px" width="150px"></a>
+         </div>
+         
+         <div class = "ui-block-c">
+            <a class = "ui-btn ui-corner-all ui-shadow ui-btn-a"><img src="img/image9.jpg" height="150px" width="150px"></a>
+            </div>
+
+</div>
+      </fieldset>
+
+
+      
+
+   </body>
+</html>
